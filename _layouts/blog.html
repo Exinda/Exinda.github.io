@@ -2,4 +2,7 @@
 layout: default
 ---
 {% include header.html %}
-{% include map.html %}
+
+{% for post in site.posts %}
+  {% include blog-entry.html %}
+{% endfor %}
