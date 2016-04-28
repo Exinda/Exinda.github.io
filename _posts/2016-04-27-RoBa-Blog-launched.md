@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-entry
 title: "RoBa, Launches Site"
 date: 2016-04-27
 ---
