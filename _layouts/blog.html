@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% include header.html %}
+<section id="blog">
+  {% for post in site.posts %}
+    {% include blog-entry.html %}
+  {% endfor %}
+</section>
